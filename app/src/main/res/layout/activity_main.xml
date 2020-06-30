@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <SeekBar
+        android:id="@+id/seekVolumen"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_margin="20dp"
+        android:tooltipText="Volumen">
+    </SeekBar>
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:text="Play"></Button>
+
+    <Button
+        android:id="@+id/btnPause"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:text="Pause" />
+
+    <SeekBar
+        android:id="@+id/musicSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_margin="20dp"
+        android:tooltipText="Duración de la canción">
+
+    </SeekBar>
+
+
+</LinearLayout>
